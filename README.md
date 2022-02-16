@@ -7,6 +7,7 @@
 [docker-compose installation](https://docs.docker.com/compose/install/)
 
 ## ELK 설치
+### ELK docker-compose 참고자료: [here](https://github.com/deviantony/docker-elk)
 1. docker-compose.yml 내 elasticsearch 초기 패스워드 설정
 ```yml
 environment:
