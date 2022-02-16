@@ -24,13 +24,13 @@ xpack.monitoring.elasticsearch.password: {password}
 3. logstash/pipeline/logstash.conf
 ```yml
 output {
-	elasticsearch {
-		hosts => "your_elasticsearch_host:9201"
-		user => "elastic"
-		password => "password"
-		ecs_compatibility => disabled
-		index => "index-log"
-	}
+  elasticsearch {
+    hosts => "your_elasticsearch_host:9201"
+    user => "elastic"
+    password => "password"
+    ecs_compatibility => disabled
+    index => "index-log"
+  }
 }
 ```
 
